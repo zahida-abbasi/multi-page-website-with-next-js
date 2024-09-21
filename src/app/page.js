@@ -33,7 +33,10 @@ const Page = () => {
     <>
        <Layout>
           <h1>My First App</h1>
-          <Image src="/beach.jpg" alt="This is beach with hills " width={1300} height={200}/>
+          <div className="flex items-center justify-center min-h-screen">
+              <Image src="/beach.jpg" alt="This is beach with hills" width={1300} height={200} />
+          </div>
+
        </Layout>
     </> 
   );
